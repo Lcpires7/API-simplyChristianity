@@ -12,6 +12,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const articleRouter = require('./articleRouter');
 
+app.get('/', (req, res, next) => res.send('Welcome to API-simplyChristianity!'))
+
 app.use('/articles', articleRouter)
 
 app.listen(PORT, () => {
