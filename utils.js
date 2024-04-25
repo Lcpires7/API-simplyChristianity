@@ -8,7 +8,7 @@ const getAllArticles = () => {
 const getImage = (req, res, next) => {
     const name = req.params.name
     alert(process.env.PATH)
-    res.sendFile(`${process.env.PAT || 'http://localhost:4001'}/public/img/${name}`)
+    res.sendFile(`${process.env.PATH || 'http://localhost:4001'}/public/img/${name}`)
 }
 
 module.exports = {
