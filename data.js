@@ -24,21 +24,21 @@ const allArticles = [
         <p>Após todo os seus feitos em prol do seu povo Jesus é detido pelas autoridades judaicas que não acreditavam e não se deixavam cativar pelas suas obras miraculosas, pelo contrário, o julgam entre si e depois o levam as autoridades romanas para que fosse julgado e condenado a morte, e morte de cruz, tamanho era a indignação dos mesmos, que não queriam somente vê-lo morrer, mas o queriam humilhado diante de todos.</p>
         `,
         category: "christianity",
-        urlImg: ``,
+        urlImg: `${process.env.PATH_SERVER_AND_PORT}/img/cruzCity.jpg`,
         tags:  ""
     },
     {
         title: "Sobre o batismo",
         content: "",
         category: "christianity",
-        urlImg: 'batismo.jpg',
+        urlImg: `${process.env.PATH_SERVER_AND_PORT}/img/batismo.jpg`,
         tags: " "
     },
     {
         title: "Sobre a santa ceia",
         content: "",
         category: "christianity",
-        urlImg: 'santaCeia.jpg',
+        urlImg: `${process.env.PATH_SERVER_AND_PORT}/img/santaCeia.jpg`,
         tags: " "
     }
 ]
